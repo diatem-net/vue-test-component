@@ -1,0 +1,41 @@
+{
+  "name": "vue-test-component",
+  "description": "",
+  "author": "Diatem <dev@diatem.net>",
+  "homepage": "https://github.com/diatem-net/vue-test-component",
+  "bugs": {
+    "url": "https://github.com/diatem-net/vue-test-component/issues"
+  },  
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "vuejs",
+    "vue",
+    "vite",
+    "plugin",
+    "component"
+  ],
+  "license": "MIT",
+  "private": false,
+  "module": "dist/vue-test-component.es.js",
+  "main": "dist/vue-test-component.umd.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diatem-net/vue-test-component.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^3.0.0"
+  }
+}
