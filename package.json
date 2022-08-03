@@ -1,11 +1,11 @@
 {
-  "name": "vue-test-component",
-  "description": "",
+  "name": "@diatem-net/vue-test-component",
+  "description": "Just a Vue 3 proof-of-concept test component",
   "author": "Diatem <dev@diatem.net>",
   "homepage": "https://github.com/diatem-net/vue-test-component",
   "bugs": {
     "url": "https://github.com/diatem-net/vue-test-component/issues"
-  },  
+  },
   "version": "1.0.0",
   "type": "module",
   "keywords": [
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/diatem-net/vue-test-component.git"
+    "url": "git+https://github.com/diatem-net/vue-test-component.git"
   },
   "scripts": {
     "dev": "vite",
